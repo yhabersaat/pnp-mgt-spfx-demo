@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "pnp-mgt-spfx-demo",
+    "libraryId": "acb80e57-8af7-47d1-8f84-3fd7a9e39e1f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "pnp-mgt-spfx-demo",
+    "solutionShortDescription": "pnp-mgt-spfx-demo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

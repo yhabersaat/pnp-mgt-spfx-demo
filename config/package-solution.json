@@ -1,0 +1,50 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pnp-mgt-spfx-demo-client-side-solution",
+    "id": "acb80e57-8af7-47d1-8f84-3fd7a9e39e1f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Yves Habersaat",
+      "websiteUrl": "https://www.yhabersaat.ch",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Mail.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Team.ReadBasic.All"
+      }
+    ],
+    "metadata": {
+      "shortDescription": {
+        "default": "pnp-mgt-spfx-demo description"
+      },
+      "longDescription": {
+        "default": "pnp-mgt-spfx-demo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "pnp-mgt-spfx-demo Feature",
+        "description": "The feature that activates elements of the pnp-mgt-spfx-demo solution.",
+        "id": "26f70904-53f6-41a7-bb55-fb820c015820",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/pnp-mgt-spfx-demo.sppkg"
+  }
+}
