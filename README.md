@@ -1,6 +1,6 @@
 # pnp-mgt-spfx-demo
 
-SPFx solution presented in the Viva Connections and SharePoint Framework community call on March 10th, 2022.
+Demo SPFx solution presented at the Viva Connections and SharePoint Framework community call on March 10th, 2022.
 
 1) Deploy mgt-spfx package on your tenant app catalog:
 https://github.com/microsoftgraph/microsoft-graph-toolkit/releases
